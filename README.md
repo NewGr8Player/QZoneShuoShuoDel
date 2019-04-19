@@ -1,7 +1,9 @@
 # QZoneShuoShuoDel
 QQ空间删除脚本
 
-说说删除有限制，每天删除一定数量之后就会出现验证码。
+修改自[这个项目](https://github.com/aqiongbei/qq_zone_delete)
+
+> 说说删除有限制，每天删除一定数量之后就会出现验证码。
 
 ### 说说删除
 打开空间，选择**说说**Tab页，使页面处于如下图所示状态
