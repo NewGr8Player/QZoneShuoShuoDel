@@ -20,6 +20,12 @@ QQ空间删除脚本
 
 选择好之后就可以在这里注入说说删除脚本了，把这个文件的内容复制、丢进控制台执行即可。脚本执行过程中在左侧页面区域会看到控制台提示
 
+**或者**
+
+```javascript
+function del(){document.querySelector('a[class="del del_btn author_display"]').click();setTimeout(function(){parent.document.querySelector('a[title="点击这里确认"]').click();},500);}
+```
+
 > 请忽略数量上的不一致
 
 删除完成的时候会自动刷新页面。这时候说说一般都删完了，整个过程不需要用户交互。
