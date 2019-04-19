@@ -18,7 +18,7 @@ QQ空间删除脚本
 
 ![说说内容部分状态](https://github.com/aqiongbei/qq_zone_delete/blob/master/readme_img/2018-01-03_231256.png)
 
-选择好之后就可以在这里注入[说说删除脚本-delete_shuoshuo.js](https://github.com/aqiongbei/qq_zone_delete/blob/master/delete_shuoshuo.js)了，把这个文件的内容复制、丢进控制台执行即可。脚本执行过程中在左侧页面区域会看到弹窗提示
+选择好之后就可以在这里注入说说删除脚本了，把这个文件的内容复制、丢进控制台执行即可。脚本执行过程中在左侧页面区域会看到控制台提示
 
 ![开始删除](https://github.com/aqiongbei/qq_zone_delete/blob/master/readme_img/2018-01-03_233420.png)
 
