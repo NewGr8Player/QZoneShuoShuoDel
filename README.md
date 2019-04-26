@@ -22,8 +22,19 @@ QQ空间删除脚本
 
 **或者**
 
+删除说说：
+
 ```javascript
 function del(){document.querySelector('a[class="del del_btn author_display"]').click();setTimeout(function(){parent.document.querySelector('a[title="点击这里确认"]').click();},500);}
+```
+
+删除日志：
+
+```javascript
+function del(){
+document.querySelector('a[title="删除该日志"]').click();
+setTimeout(function(){parent.document.querySelector('#delBlogFrame').contentWindow.document.querySelector('#btnConfirm').click();},500);
+}
 ```
 
 > 请忽略数量上的不一致
